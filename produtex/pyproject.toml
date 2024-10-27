@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "produtex"
+version = "0.1.0"
+description = ""
+authors = ["vitor <vitor@caletagaming.com>"]
+readme = "README.md"
+packages = [{include = "produtex", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
